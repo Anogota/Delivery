@@ -32,3 +32,5 @@ I didn't find anything intresting, because somethimes my methodology is little b
 ![obraz](https://github.com/Anogota/Delivery/assets/143951834/8d71dc68-daf3-453e-926f-9f15043918ab)
  
 6.What user has been posting in the Internal channel?
+This to escalate is awesome, spend 1 hour but i figure out how this working.
+First what we need to do is create the ticket, we can see there 
