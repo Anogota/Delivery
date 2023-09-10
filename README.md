@@ -13,3 +13,14 @@ The shortcut FQDN mean Fully Qualified Domain Name
 Here is the screanshot, how look the website:
 
 ![obraz](https://github.com/Anogota/Delivery/assets/143951834/03d64b91-d915-4c62-b4f5-4d7f205d7950)
+
+3.Do you need an account to create a ticket on the support center?
+For the test i make some ticket, and i don't need any account to create it.
+
+4.Is it possible to update a ticket in any way besides interacting with the website?
+First what we need to do is create a ticket and analyze what we can do with this ticket
+But like me I encountered problem, i can't did a ticket, but after change VPN we got this :P
+
+And the answer for this question is "yes" because we can add more information to your ticket, just email 2063627@delivery.htb.
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/b54dbae0-38a6-459e-b868-96da5cc68d44)
