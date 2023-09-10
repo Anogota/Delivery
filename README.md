@@ -71,3 +71,13 @@ type this command: use mattermost  than: select * from Users;
 We can see here alot of hashes 
 
 ![obraz](https://github.com/Anogota/Delivery/assets/143951834/7aa8a979-ff95-45ac-824a-71635c697ec4)
+
+9.What is the hash of the root user's password for Mattermost?
+We can see there root hash, save this hash on ur PC and let's crak it before this we need to know, what that hash is, i go to website hashanalyzer and insert this hash and the Hash type:	bcrypt, next step is to go https://hashcat.net/wiki/doku.php?id=example_hashes and find hash mode for this hash: 3200 
+here is the passwrd: PleaseSubscribe!21
+
+And i got the root.txt flag 
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/36fab005-6d2a-4976-a525-bc5bc39d3e3e)
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/59aabcad-f2e1-43e9-af3d-7426908707a9)
