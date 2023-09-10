@@ -1,4 +1,4 @@
-![obraz](https://github.com/Anogota/Delivery/assets/143951834/15c7150e-a95e-465f-8cb3-d91720fdb09a)1.How many TCP ports are open on the target?
+1.How many TCP ports are open on the target?
 First what i reccomend is use: nmap -sCV -p- <IP> with this switch, you can get everything you want.
 We get a lot of information from this scan.
 
@@ -50,6 +50,15 @@ In this conversation are some creds
 
 ![obraz](https://github.com/Anogota/Delivery/assets/143951834/41bc3d19-2fe4-438e-bcbe-72e13c9c2e77)
 
-I try to use it into the SSH, and i got this, this creds is correct
+I try to use it into the SSH, and i got this, this creds is correct, and also here is the user.txt
 
-![obraz](https://github.com/Anogota/Delivery/assets/143951834/cfb60f29-8713-408f-95af-de42e63bf111)
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/ca6311ea-32e6-4d88-91b3-eaa29f32979e)
+
+8.What is the password the mmuser user uses to connect to mysql?
+When you don't know where can be something do recon, and i did. First i found in /opt mattermost i go the config and there is config.json and here can be something intresting.
+And i found this:"DataSource": "mmuser:Crack_The_MM_Admin_PW  - username and password, now must figure out how to connect into this database.
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/b16eb867-03dd-402b-a65c-fd7a87c2560e)
+
+mysql -u mmuser -p and press enter, then u can see Enter password: Crack_The_MM_Admin_PW
+And we are login to mysql.
