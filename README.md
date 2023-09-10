@@ -62,3 +62,12 @@ And i found this:"DataSource": "mmuser:Crack_The_MM_Admin_PW  - username and pas
 
 mysql -u mmuser -p and press enter, then u can see Enter password: Crack_The_MM_Admin_PW
 And we are login to mysql.
+Now we need to use some databases, but first we need to know what kind of databases are here, heres the command: show databases;
+And we can see this
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/812e7cd7-e55e-4d5e-94b9-89728cb44559)
+
+type this command: use mattermost  than: select * from Users;
+We can see here alot of hashes 
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/7aa8a979-ff95-45ac-824a-71635c697ec4)
