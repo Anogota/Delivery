@@ -1,4 +1,4 @@
-1.How many TCP ports are open on the target?
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/15c7150e-a95e-465f-8cb3-d91720fdb09a)1.How many TCP ports are open on the target?
 First what i reccomend is use: nmap -sCV -p- <IP> with this switch, you can get everything you want.
 We get a lot of information from this scan.
 
@@ -24,3 +24,11 @@ But like me I encountered problem, i can't did a ticket, but after change VPN we
 And the answer for this question is "yes" because we can add more information to your ticket, just email 2063627@delivery.htb.
 
 ![obraz](https://github.com/Anogota/Delivery/assets/143951834/b54dbae0-38a6-459e-b868-96da5cc68d44)
+
+5.What chat software is served on TCP port 8065?
+Because we can't see in as scan, we must google it or turn on more power to nmap, first what i did is use google and check what google tell me about this port.
+I didn't find anything intresting, because somethimes my methodology is little bit broken, i visit the website and there we can see big text, and this is as version:
+
+![obraz](https://github.com/Anogota/Delivery/assets/143951834/8d71dc68-daf3-453e-926f-9f15043918ab)
+ 
+6.What user has been posting in the Internal channel?
